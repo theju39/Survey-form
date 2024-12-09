@@ -1,0 +1,17 @@
+label{
+    display: block;
+  }
+  #title,#description {
+    text-align: center;
+    margin-top: 1px;
+  }
+  .inline{
+    display: inline;
+  }
+  body{
+    width: 100%;
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+  }
+  input,textarea,select,button,checkbox, radio{
+    background: yellow;
+  }

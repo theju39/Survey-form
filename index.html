@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for participating in the survey!</p>
+      <form id="survey-form">
+        <fieldset>
+          <label id="name-label">
+            Name: <input type="text" id="name" placeholder="eg: John Doe" required />
+          </label>
+          <label id="email-label" >
+            Email: <input id="email" type="email" placeholder="eg: example@email.com" required />
+          </label>
+          <label id="number-label">
+            Age(optional): <input id="number" type="number" min="13" max="120" placeholder="eg: 28" />
+          </label>What's your favourite food? 
+            <select id="dropdown">
+              <option>(select one)</option>
+              <option>Biriyani</option>
+              <option>Pizza</option>
+              <option>Burger</option>
+            </select>
+          </label>
+          <label>What do you prefer for Breakfast more?
+            <input type="radio" name="preference" class="inline" value="dosa" checked />Dosa
+            <input type="radio" name="preference" class="inline" value="idly" />Idly
+          </label>
+          <label>Select which foods do you prefer for dinner.
+            <input type="checkbox" value="fruits" />Fruits
+            <input type="checkbox" value="rice" />Rice
+            <input type="checkbox" value="roti" />Roti
+            <input type="checkbox" value="lasagna" />lasagna
+          </label>
+          <label>Tell us more about your food preferences: 
+            <textarea></textarea>
+          </label>
+          <label for="submit">
+            <button id="submit" type="submit" >Submit</button>
+          </label>
+       </fieldset>
+      </form>
+  </body>
+</html>
